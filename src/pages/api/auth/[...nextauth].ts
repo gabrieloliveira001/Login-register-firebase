@@ -33,11 +33,15 @@ export default NextAuth({
   },
   callbacks: {
     async jwt({ token, user }) {
-      if (user) token.uid = user.id;
+      if (user) {
+        token.uid = user.id;
+      }
       return token;
     },
     async session({ session, token }) {
-      if (token) session.uid = token.uid;
+      if (token.uid) {
+        session.user.uid = token.uid;
+      }
       return session;
     },
   },
