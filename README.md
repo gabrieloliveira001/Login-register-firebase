@@ -16,7 +16,6 @@ Conta com formulário de **registro com validação**, feedbacks visuais de erro
 
 - ✅ **Cadastro com E-mail e Senha**
 - ✅ **Login com E-mail e Senha**
-- ✅ **Login com Conta Google (OAuth)**
 - ✅ **Validação de formulário com Zod + React Hook Form**
 - ✅ **Mensagens de erro amigáveis**
 - ✅ **Proteção de rotas com sessão**
@@ -63,5 +62,5 @@ Conta com formulário de **registro com validação**, feedbacks visuais de erro
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
+git clone https://github.com/gabrieloliveira001/Login-register-firebase.git
 cd seu-repo
