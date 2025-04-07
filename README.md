@@ -63,4 +63,4 @@ Conta com formulário de **registro com validação**, feedbacks visuais de erro
 
 ```bash
 git clone https://github.com/gabrieloliveira001/Login-register-firebase.git
-cd seu-repo
+cd Login-register-firebase
